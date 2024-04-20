@@ -76,4 +76,9 @@
   .header .activeNavbar {
     top: 6rem;
   }
+}
+
+.activeHeader {
+  background: var(--pcardColor);
+  box-shadow: 0 2px 4px rgba(1, 15, 29, 0.907);
 }/*# sourceMappingURL=navbar.css.map */

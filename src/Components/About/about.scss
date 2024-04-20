@@ -1,0 +1,101 @@
+:root{
+    --primaryColor:#00eaff;
+    --primaryHover: hsl(172, 23%, 47%);
+    --secondaryColor:rgb(171, 189, 226);
+    --Bgcolor: #01060a;
+    --textColor: #cad2e5; 
+    --headerHeight: 2.5rem;
+    --pcardColor: #072340;
+    --paraColor: rgb(127, 127, 175);
+    --formColor: rgb(2, 15, 30);
+}
+
+.about {
+    .sectionContent {
+        .textSection {
+            font-size: 1.2rem;
+            color: var(--secondaryColor);
+            font-weight: 500;
+            max-width: 100%;
+            letter-spacing: 1px;
+            margin: auto;
+
+            .aboutBtn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 2rem;
+                background: var(--primaryColor);
+                width: max-content;
+                padding: 10px 15px;
+                color: var(--Bgcolor);
+    
+                &:hover {
+                    background: var(--primaryColor);
+    
+                }
+    
+                a {
+                    color: var(--pcardColor);
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                    cursor: pointer;
+                    gap: .7rem;
+    
+                }
+    
+                a:hover {
+                    color: var(--textColor);
+    
+                }
+        }
+
+        
+        }
+
+        .aboutImgDiv {
+            position: relative;
+            width: 250px;
+            height: 250px;
+            margin: 2rem auto 3rem;
+            border-radius: 50%;
+            overflow: hidden;
+            display: grid;
+            border: 2px dashed var(--primaryColor);
+
+            .aboutImg {
+                width: 235px;
+                align-self: center;
+                object-fit: cover;
+                justify-self: center;
+            }
+        }
+
+        .aboutImgDiv::before {
+            content: "Hover";
+            font-size: 1.5rem;
+            color: var(--Bgcolor);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family:'Inconsolata', monospace ;
+            justify-self: center;
+            align-self: center;
+            background: var(--primaryColor);
+            height: 96%;
+            width: 96%;
+            position: absolute;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: all .3;
+            mix-blend-mode: screen;
+
+        }
+
+        .aboutImgDiv:hover.aboutImgDiv::before {
+            height: 0%;
+
+        }
+    }
+}
