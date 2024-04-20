@@ -37,7 +37,7 @@ const Home = () => {
           Eager to work with you and contribute massively to projects
         </p>
         <div className="lowerHomeSection">
-          <button className="containerBtn">
+          <button className="contactBtn">
             <a href="#contact" className="flex">
               {" "}
               Contact ME <FaAngleDoubleRight className="icon" />
@@ -46,8 +46,8 @@ const Home = () => {
 
           <div className="scrollDiv">
             <a href="#about" className="flex">
-              {" "}
-              Scroll Down <BsChevronDoubleDown className="icon" />
+              {" "} <h6 className="scroll">Scroll Down</h6>
+               <BsChevronDoubleDown className="icon" />
             </a>
           </div>
         </div>

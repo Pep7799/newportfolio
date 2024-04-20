@@ -1,0 +1,104 @@
+:root{
+    --primaryColor:#00eaff;
+    --primaryHover: hsl(172, 23%, 47%);
+    --secondaryColor:rgb(171, 189, 226);
+    --Bgcolor: #01060a;
+    --textColor: #cad2e5; 
+    --headerHeight: 2.5rem;
+    --pcardColor: #072340;
+    --paraColor: rgb(127, 127, 175);
+    --formColor: rgb(2, 15, 30);
+}
+
+.home {
+    .homeContainer {
+        padding: 4.5rem 2rem;
+        .introText {
+            font-size: 1.4rem;
+            color: var(--primaryColor);
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .title {
+            font-weight: 600;
+            font-size: 3.4rem;
+            color: var(--textColor);
+            padding: .8rem 0;
+
+        }
+
+        .subTitle {
+            display: block;
+            font-size: 1.9rem;
+            font-weight: 600;
+            color: var(--secondaryColor);
+            line-height: 2.2rem;
+            padding: 0.5rem 0;
+
+        }
+
+        .homeParagraph {
+            font-size: 1.2rem;
+            color: var(--paraColor);
+            max-width: 600px;
+            padding: 1rem 0;
+        }
+
+        .lowerHomeSection {
+            .contactBtn {
+                padding: .6rem 1rem;
+                background: var(--primaryColor);
+                color: var(--Bgcolor);
+                border: none;
+                outline: none;
+                &:hover {
+                    background: var(--primaryHover);
+
+                }
+                a{
+                   font-size: 22px; 
+                   font-weight: 600;
+                   gap: .5rem;
+                   align-items: center;
+                   color: var(--Bgcolor);
+                }
+
+            }
+
+            .scrollDiv {
+                padding-top: 1rem;
+                display: flex;
+                align-items: center;
+                .scroll {
+                      font-size: 1.5rem;
+                      color: var(--primaryColor);     
+                }
+                .icon {
+                    font-size: 1.4rem;
+                    margin-left: .6rem;
+                    color: var(--primaryColor);
+                    animation: move .5s infinite;
+                }
+                @keyframes move {
+                    0%{
+                        transform: translateY(5px);
+                    }
+                    25%{
+                        transform: translateY(0px);
+                    }
+                    50%{
+                        transform: translateY(5px);
+                    }
+                    75%{
+                        transform: translateY(0px);
+                    }
+                    100%{ 
+                        transform: translateY(5px);
+                    }
+                    
+                }
+            }
+        }
+    }
+}
