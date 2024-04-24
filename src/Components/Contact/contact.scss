@@ -1,0 +1,136 @@
+:root{
+    --primaryColor:#00eaff;
+    --primaryHover: hsl(172, 23%, 47%);
+    --secondaryColor:rgb(171, 189, 226);
+    --Bgcolor: #01060a;
+    --textColor: #cad2e5; 
+    --headerHeight: 2.5rem;
+    --pcardColor: #072340;
+    --paraColor: rgb(127, 127, 175);
+    --formColor: rgb(2, 15, 30);
+}
+
+.contact {
+    .contactContainer{
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1.8rem;
+
+        .socialContacts {
+            justify-content: center;
+            h3 {
+                color: var(--secondaryColor);
+                padding: 1rem 0;
+                text-align: center;
+            }
+
+          .cards {
+            gap: 1rem;
+            justify-content: center;
+            .card {
+                display: grid; 
+                align-items: center;
+                row-gap: 10px;
+                padding: 1.5rem;
+                width: 240px;
+                background: var(--pcardColor);
+                border-radius: 10px;
+                text-align: center;
+ 
+                .icon{
+                 color: var(--primaryColor);
+                }
+ 
+                h4{
+                 color: var(--textColor);
+                 font-size: 18px;
+                }
+ 
+                .userName{
+                 color: var(--secondaryColor);
+                 font-weight: 600;
+                }
+ 
+                a{
+                 justify-content: center;
+                 gap: 5px;
+                 color: var(--primaryColor);
+                 font-weight: 600;
+                 cursor: pointer;
+ 
+                 .icon{
+                     font-size: 20px;
+                 }
+                 &:hover {
+                     color: var(--primaryColor);
+                     .icon{
+                         transform: translateX(10px);
+                     }
+                     
+                 }
+                }
+ 
+             }
+          }
+        }
+
+        .form {
+            width: 100%;
+            justify-content: center;
+            margin: auto;
+
+            h3 {
+                text-align: center;
+                color: var(--secondaryColor);
+
+            }
+
+            form {
+                width: 100%;
+                text-align: center;
+
+                input, textarea {
+                    height: 1rem;
+                    width: 90%;
+                    padding: 1.5rem .3rem ;
+                    border-radius: 10px;
+                    border: 2px solid var(--secondaryColor);
+                    background: none;
+                    margin: .5rem 0;
+                    outline: none;
+                    color: var(--textColor);
+                    font-weight: 600;
+
+                    &::placeholder {
+                        color: var(--secondaryColor);
+                        opacity: .5;
+                    }
+                }
+
+                textarea {
+                    height: 130px;
+                }
+
+                .formBtn {
+                    display: block;
+                    margin: auto;
+                    width: 90%;
+                    border: none;
+                    padding: 1rem 0;
+                    background-color: var(--secondaryColor);
+                    font-weight: 600;
+                    cursor: pointer;
+                    border-radius: 10px;
+                    font-size: 19px;
+                    
+
+                    &:hover {
+                        background: var(--primaryHover);
+                    }
+                }
+            }
+        }
+    }
+}
+

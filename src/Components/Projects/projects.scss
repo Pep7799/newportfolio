@@ -1,0 +1,79 @@
+:root{
+    --primaryColor:#00eaff;
+    --primaryHover: hsl(172, 23%, 47%);
+    --secondaryColor:rgb(171, 189, 226);
+    --Bgcolor: #01060a;
+    --textColor: #cad2e5; 
+    --headerHeight: 2.5rem;
+    --pcardColor: #072340;
+    --paraColor: rgb(127, 127, 175);
+    --formColor: rgb(2, 15, 30);
+}
+
+.projects {
+    .projectContainer {
+        margin-top: 1rem;
+        justify-content: space-between;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+
+        .singleProject {
+            display: grid;
+            gap: .5rem;
+            padding: 1.5rem 1rem;
+            height: 100%;
+            background: var(--pcardColor);
+
+            .externalLinks {
+                width: 100%;
+                justify-content: space-between;
+
+                .playIcon .githubIcon {
+                    a {
+                        color: var(--primaryColor);
+                        a:hover {
+                            color: var(--primaryHover);
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                transform: translateY(-7px);
+                border-bottom: 2px solid var(--primaryColor);
+            }
+            imgDiv {
+                height: 150px;
+                width: auto;
+                border-radius: 5px;
+                overflow: hidden;
+                cursor: pointer;
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 5px;
+                }
+            }
+
+            .projectTitle {
+                display: flex;
+                font-weight: 600;
+                color: var(--textColor);
+            }
+            .desc {
+                font-weight: 600;
+                color: var(--secondaryColor);
+            }
+            .technologies {
+                margin-top: 1rem;
+                gap: .5rem;
+                justify-content: flex-end;
+                small {
+                    color: var(--secondaryColor);
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

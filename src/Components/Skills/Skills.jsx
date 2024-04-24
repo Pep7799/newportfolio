@@ -12,7 +12,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaGit } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiRedux } from "react-icons/si";
-import { RiTeamLine } from "react-icons/ri";
 
 
 
