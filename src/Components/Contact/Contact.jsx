@@ -46,7 +46,7 @@ const Contact = () => {
                 <div>
                   <a
                     href="https://www.linkedin.com/in/oluwa-pelumi/"
-                    className="flex" target="_blank"
+                    className="flex" target="_blank" rel="noopener noreferrer"
                   >
                     Send a message <FaAngleDoubleRight className="icon" />
                   </a>
@@ -63,6 +63,7 @@ const Contact = () => {
                   <a
                     href="https://twitter.com/SuperGirl_P"
                     className="flex" target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Send a message <FaAngleDoubleRight className="icon" />
                   </a>
@@ -78,7 +79,7 @@ const Contact = () => {
                 <div>
                   <a
                     href="https://github.com/Pep7799"
-                    className="flex" target="_blank"
+                    className="flex" target="_blank" rel="noopener noreferrer"
                   >
                     Send a message <FaAngleDoubleRight className="icon" />
                   </a>

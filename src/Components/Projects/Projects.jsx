@@ -101,18 +101,18 @@ const Projects = () => {
               <div key={id} className="singleProject">
                 <div className="externalLinks flex">
                   <div className="playIcon">
-                    <a href={preview} target="_blank">
+                    <a href={preview} target="_blank" rel="noopener noreferrer">
                       <FaPlay className="icon" />
                     </a>
                   </div>
                   <div className="githubIcon">
-                    <a href={github} target="_blank">
+                    <a href={github} target="_blank" rel="noopener noreferrer">
                       <FaGithub className="icon" />
                     </a>
                   </div>
                 </div>
                 <div className="imgDiv">
-                  <a href={preview} target="_blank">
+                  <a href={preview} target="_blank" rel="noopener noreferrer">
                     <img src={image} alt={title} />
                   </a>
                 </div>

@@ -12,16 +12,16 @@ const Home = () => {
     <section id="home" className="home section">
       <div className="lefticons">
         <div className="socials grid">
-          <a href="https://github.com/Pep7799" target='_blank'>
+          <a href="https://github.com/Pep7799" target='_blank' rel="noopener noreferrer">
           <FaGithub className='icon'/>
           </a>
-          <a href="https://twitter.com/SuperGirl_P" target='_blank'>
+          <a href="https://twitter.com/SuperGirl_P" target='_blank' rel="noopener noreferrer">
           <FaTwitter  className='icon'/>
           </a>
-          <a href="https://www.linkedin.com/in/oluwa-pelumi/" target='_blank'>
+          <a href="https://www.linkedin.com/in/oluwa-pelumi/" target='_blank' rel="noopener noreferrer">
           <FaLinkedin  className='icon'/>
           </a>
-          <a href="https://supergirlp.hashnode.dev/" target='_blank'>
+          <a href="https://supergirlp.hashnode.dev/" target='_blank' rel="noopener noreferrer">
           <FaHashnode  className='icon'/>
           </a>
         </div>
@@ -60,6 +60,7 @@ const Home = () => {
             <a
               href="https://mailto:folamioluwapelumi1@gmail.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
               folamioluwapelumi1@gmail.com
             </a>
