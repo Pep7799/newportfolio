@@ -50,7 +50,7 @@ const Navbar = () => {
           </li>
 
           <button className="btn">
-            <a href="">Resume</a>
+            <a href="FolamiPCV.pdf" download="FolamiPCV.pdf">Resume</a>
           </button>
          
         </ul>

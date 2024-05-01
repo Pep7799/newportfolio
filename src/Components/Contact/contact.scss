@@ -14,8 +14,9 @@
     .contactContainer{
         width: 100%;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         gap: 1.8rem;
+        margin-left: 2rem;
 
         .socialContacts {
             justify-content: center;
@@ -134,3 +135,25 @@
     }
 }
 
+@media screen and (min-width: 640px) {
+    .cards{
+        justify-content: center;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .contact{
+        .contactContainer{
+            grid-template-columns: repeat(2, 1fr);
+            align-items: flex-start !important;
+        }
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .contact{
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+}

@@ -85,8 +85,6 @@ const Skills = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="skillsContainer grid">
         <div className="skillGroup">
           <h2 className="groupTitle">Other skills</h2>
           <div className="generalSkills">
@@ -127,6 +125,9 @@ const Skills = () => {
           </div>
         </div>
       </div>
+   
+      
+     
    
     </section>
   );

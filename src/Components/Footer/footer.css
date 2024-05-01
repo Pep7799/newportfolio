@@ -1,1 +1,25 @@
-/*# sourceMappingURL=footer.css.map */
+:root {
+  --primaryColor:#00eaff;
+  --primaryHover: hsl(172, 23%, 47%);
+  --secondaryColor:rgb(171, 189, 226);
+  --Bgcolor: #01060a;
+  --textColor: #cad2e5;
+  --headerHeight: 2.5rem;
+  --pcardColor: #072340;
+  --paraColor: rgb(127, 127, 175);
+  --formColor: rgb(2, 15, 30);
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background: var(--pcardColor);
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+.footer span {
+  text-align: center;
+  opacity: 0.5;
+  color: var(--secondaryColor);
+  font-size: 16px;
+}/*# sourceMappingURL=footer.css.map */

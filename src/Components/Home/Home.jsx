@@ -10,22 +10,23 @@ import { BsChevronDoubleDown } from "react-icons/bs";
 const Home = () => {
   return (
     <section id="home" className="home section">
-      {/* <div className="lefticons">
+      <div className="lefticons">
         <div className="socials grid">
-          <a href="" target='_blank'>
+          <a href="https://github.com/Pep7799" target='_blank'>
           <FaGithub className='icon'/>
           </a>
-          <a href="" target='_blank'>
+          <a href="https://twitter.com/SuperGirl_P" target='_blank'>
           <FaTwitter  className='icon'/>
           </a>
-          <a href="" target='_blank'>
+          <a href="https://www.linkedin.com/in/oluwa-pelumi/" target='_blank'>
           <FaLinkedin  className='icon'/>
           </a>
-          <a href="" target='_blank'>
+          <a href="https://supergirlp.hashnode.dev/" target='_blank'>
           <FaHashnode  className='icon'/>
           </a>
         </div>
-      </div> */}
+        <div className="line"></div>
+      </div>
 
       <div className="container homeContainer">
         <span className="introText">Hi! My name is</span>
@@ -53,7 +54,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="rightEmail">
+      <div className="rightEmail">
         <div>
           <div className="emailAddress">
             <a
@@ -65,7 +66,7 @@ const Home = () => {
           </div>
           <div className="line"></div>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
